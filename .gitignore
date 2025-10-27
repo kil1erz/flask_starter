@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc                   # Python编译文件
+.env                    # 环境变量文件
+venv/                   # 虚拟环境目录
+.idea/                  # IDE配置文件
+.vscode/
+！.vscode/launch.json   # 保留调试配置，但是上面的都忽略
+#防止把垃圾文件提交到版本库
